@@ -2,7 +2,7 @@ name: Weekly TeePublic Scan
 
 on:
   schedule:
-    - cron: '0 14 * * 1'  # 9am Chicago time every Monday (1 hour after Redbubble scan)
+    - cron: '0 14 * * 1'
   workflow_dispatch:
 
 jobs:
@@ -49,22 +49,22 @@ jobs:
             DMCA TAKEDOWN TEMPLATE — copy and send to copyright@teepublic.com
             ────────────────────────────────────────────────────────────
 
-            Subject: DMCA Takedown Notice – Unauthorized The Numero Group LLC Artist Merchandise
+            Subject: DMCA Takedown Notice - Unauthorized The Numero Group LLC Artist Merchandise
             To: copyright@teepublic.com
 
             To Whom It May Concern,
 
-            I am writing as the authorized representative of The Numero Group LLC, holder of exclusive intellectual property rights — including trademarks, logos, album artwork, and merchandise rights — for the following artist(s): Unwound, Duster.
+            I am writing as the authorized representative of The Numero Group LLC, holder of exclusive intellectual property rights for the following artist(s): Unwound, Duster.
 
             Our monitoring has identified the following unauthorized listings on TeePublic.com that infringe upon our intellectual property:
 
-              * [Listing Title] — [URL]
-              * [Listing Title] — [URL]
-              * [Listing Title] — [URL]
+              * [Listing Title] - [URL]
+              * [Listing Title] - [URL]
+              * [Listing Title] - [URL]
 
-            These listings use protected intellectual property without authorization, in violation of our rights under the Digital Millennium Copyright Act (17 U.S.C. § 512) and applicable trademark law.
+            These listings use protected intellectual property without authorization, in violation of our rights under the Digital Millennium Copyright Act (17 U.S.C. 512) and applicable trademark law.
 
-            I declare under penalty of perjury that I am authorized to act on behalf of The Numero Group LLC and that the information in this notice is accurate and made in good faith.
+            I declare under penalty of perjury that I am authorized to act on behalf of The Numero Group LLC and that this notice is accurate and made in good faith.
 
             We request that TeePublic immediately:
               1. Remove or disable access to all listed products
