@@ -1,0 +1,13 @@
+{
+  "name": "teepublic-ip-monitor",
+  "version": "1.0.0",
+  "description": "Automated TeePublic IP infringement scanner and DMCA email generator",
+  "main": "scraper.js",
+  "scripts": {
+    "scan": "node scraper.js"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "playwright": "^1.40.0"
+  }
+}
