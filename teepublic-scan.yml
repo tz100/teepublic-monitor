@@ -1,5 +1,4 @@
 name: Weekly TeePublic Scan
-
 on:
   schedule:
     - cron: '0 14 * * 1'
